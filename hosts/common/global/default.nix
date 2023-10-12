@@ -3,6 +3,7 @@
     inputs.home-manager.nixosModules.home-manager
 
     ./nix.nix
+    ./ssh.nix
   ];
 
   home-manager = {
