@@ -12,5 +12,5 @@
     packages = with pkgs; [ home-manager ];
   };
 
-  home-manager.users.rain = import ../../../users/rain/${config.networking.hostName}.nix;
+  home-manager.users.rain = import ../../../home/rain/${config.networking.hostName}.nix;
 }
