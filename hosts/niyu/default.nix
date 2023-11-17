@@ -19,6 +19,8 @@
     # Optional Imports
 
     # ...
+
+    inputs.nur.nixosModules.nur
   ];
 
   # Set the hostname
